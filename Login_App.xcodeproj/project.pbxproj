@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5BB94A8D8AAC0EA5799BD5A7 /* Pods_Login_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47DF096C88604269ACC143D /* Pods_Login_App.framework */; };
+		7BE8D150299A922500B3FB99 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8D14F299A922500B3FB99 /* UserService.swift */; };
+		7BE8D152299A923A00B3FB99 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8D151299A923A00B3FB99 /* UserData.swift */; };
 		B32CE05F294F8D8D008561A8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32CE05E294F8D8D008561A8 /* NetworkService.swift */; };
 		B32CE061294F91FA008561A8 /* CatFactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32CE060294F91FA008561A8 /* CatFactService.swift */; };
 		B3312894294686800075D2A7 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3312893294686800075D2A7 /* UIColor+Ext.swift */; };
@@ -34,6 +36,8 @@
 
 /* Begin PBXFileReference section */
 		6A216575C072CE5EE67BCBB6 /* Pods-Login_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_App.debug.xcconfig"; path = "Target Support Files/Pods-Login_App/Pods-Login_App.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE8D14F299A922500B3FB99 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		7BE8D151299A923A00B3FB99 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		9400502D3621BC5F077F07CF /* Pods-Login_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_App.release.xcconfig"; path = "Target Support Files/Pods-Login_App/Pods-Login_App.release.xcconfig"; sourceTree = "<group>"; };
 		A47DF096C88604269ACC143D /* Pods_Login_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B32CE05E294F8D8D008561A8 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			children = (
 				B32CE05E294F8D8D008561A8 /* NetworkService.swift */,
 				B32CE060294F91FA008561A8 /* CatFactService.swift */,
+				7BE8D14F299A922500B3FB99 /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			children = (
 				B3CDE0A1293E65A100EED425 /* CellInnerData.swift */,
 				B3DBF2352979B237009FE62B /* CatFactData.swift */,
+				7BE8D151299A923A00B3FB99 /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -358,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE8D152299A923A00B3FB99 /* UserData.swift in Sources */,
 				B3DBF2362979B237009FE62B /* CatFactData.swift in Sources */,
 				B32CE05F294F8D8D008561A8 /* NetworkService.swift in Sources */,
 				B3AE1AEA2926D18800194A97 /* LoginViewController.swift in Sources */,
@@ -366,6 +373,7 @@
 				B3CDE0A2293E65A100EED425 /* CellInnerData.swift in Sources */,
 				B371E22429392E290015ACC1 /* HomeTableViewCell.swift in Sources */,
 				B3AE1AE62926D18800194A97 /* AppDelegate.swift in Sources */,
+				7BE8D150299A922500B3FB99 /* UserService.swift in Sources */,
 				B32CE061294F91FA008561A8 /* CatFactService.swift in Sources */,
 				B3312894294686800075D2A7 /* UIColor+Ext.swift in Sources */,
 				B3D1D096293398EF00C02ED2 /* HomeViewController.swift in Sources */,

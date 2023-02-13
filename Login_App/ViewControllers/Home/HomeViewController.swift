@@ -23,13 +23,19 @@ class HomeViewController: UIViewController {
         
         getFactButton.setTitle("", for: .normal)
         
-        catFactService.getFactsAlamofireRequest()
+//        catFactService.getFactsAlamofireRequest()
         
         activityIndicator.isHidden = true
         activityIndicator.stopAnimating()
         
         getFactButton.setTitle("Get Facts", for: .normal)
-
+        
+        UserService().getUsersData() { usersData in
+            print(usersData)
+        }
+        
+        
+        
 //        catFactService.getFactAlamofireRequest { [weak self] catFact in
 //            self?.activityIndicator.isHidden = true
 //            self?.activityIndicator.stopAnimating()

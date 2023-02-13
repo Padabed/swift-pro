@@ -35,7 +35,6 @@ class LoginViewController: UIViewController {
 
             let email = emailTextField.text ?? ""
             let password = passwordTextField.text ?? ""
-            let pass: String = ""
             
             UserDefaults.standard.set([email, password], forKey: userLogindataUDKey)
             
